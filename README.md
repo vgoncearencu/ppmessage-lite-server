@@ -1,9 +1,6 @@
 
-<!-- Customer             |  Service -->
-<!-- :-------------------------:|:-------------------------: -->
-<!-- ![](doc/ppcom.gif)  | ![](doc/ppkefu.gif) -->
 
-<img src="doc/ppkefu-ppcom.gif" height=400px></img>
+<img src="ppmessage/doc/ppkefu-ppcom.gif" height=400px></img>
 
 
 # PPMessage Lite Server
@@ -39,7 +36,7 @@ bash ppmessage/scripts/set-up-ppmessage-on-mac.sh
 > Under Windows
 
 
-Check [this](doc/en-us/install-ppmessage-on-windows.md)
+Check [this](ppmessage/doc/en-us/install-ppmessage-on-windows.md)
 
 
 
@@ -96,7 +93,7 @@ limitations under the License.
 
 ## OTHER LANGUAGES
 
-[In Chinese 中文版](doc/zh-cn/README.md)
+[In Chinese 中文版](ppmessage/doc/zh-cn/README.md)
 
 
 ## OTHER PROJECTS

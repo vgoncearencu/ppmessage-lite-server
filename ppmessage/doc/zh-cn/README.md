@@ -1,4 +1,4 @@
-![PPMessage Demo](/doc/ppkefu-ppcom.gif)
+![PPMessage Demo](ppmessage/doc/ppkefu-ppcom.gif)
 
 [In English](/README.md)
 
@@ -64,7 +64,7 @@ bash ppmessage/scripts/set-up-mac-on-linux.sh
 > 应网友之强烈要求，要有个 QQ 群 348015072
 
 
-![](/doc/348015072.png)
+![](ppmessage/doc/348015072.png)
 
 
 ## 版权 
