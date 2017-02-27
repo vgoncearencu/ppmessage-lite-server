@@ -15,6 +15,6 @@
 > 安装 Python 包，需要系统管理员权限
 
 ```
-pip install -r ppmessage/scripts/requirements.txt
+pip install -r ppmessage/scripts/windows-requirements.txt
 ```
 
