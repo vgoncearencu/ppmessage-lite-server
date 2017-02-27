@@ -1,10 +1,12 @@
-![PPMessage Demo](/ppmessage/doc/ppkefu-ppcom.gif)
+![PPMessage Demo](/doc/ppkefu-ppcom.gif)
 
 [In English](/README.md)
 
+<strong>为了避免混淆，原项目代码已经移到 [PPMessage Lite Server](https://github.com/PPMESSAGE/ppmessage-lite-server)。</strong>
+
 # PPMessage Lite Server - 皮皮消息，即插即用，纯Python实现。
 
-PPMessage Lite Server 是配合 PPMessage 在线服务[https://ppmessage.com] 提供的一个精简版的开源沟通平台，PPMessage Lite Server 能够在服务器接口级别与 PPMessage SaaS 服务兼容，其目标为开发者提供一个可以本地部署的测试开发平台。
+PPMessage Lite Server 是配合 PPMessage 在线服务[https://ppmessage.com] 提供的一个极简的开源平台，PPMessage Lite Server 能够在服务器接口级别与 PPMessage SaaS 服务兼容，其目标为 PPMessage 的开发者提供一个可以本地部署的服务器，用来在开发中进行测试。
 
 PPMessage Lite Server 建议部署到 macOS 上，其次 Debian Linux，再其次选择 Windows。
 
@@ -16,7 +18,7 @@ PPConfig 用来辅助生成运行所需的配置信息，配置信息保存在 p
 ### 下载代码
 
 ```bash
-git clone https://github.com/PPMESSAGE/ppmessage
+git clone https://github.com/PPMESSAGE/ppmessage-lite-server
 cd ppmessage
 ```
 
@@ -27,8 +29,6 @@ cd ppmessage
 ```bash
 bash ppmessage/scripts/set-up-ppmessage-on-linux.sh
 ```
-
-> 为啥没有 CentOS 的安装脚本？ 没啥为什么，就是懒... ^_^
 
 > macOS
 
@@ -42,9 +42,16 @@ bash ppmessage/scripts/set-up-mac-on-linux.sh
 
 
 ```bash
-./main.py
+./config.py --email=你的邮箱地址 --password=初始化密码
 ```
+
+```bash
+./lite.py
+```
+
 > 删除文件 ppmessage/bootstrap/config.json，再运行 main.py 就可以重新配置。
+
+打开浏览器访问 http://127.0.0.1:8945，用你配置的`邮箱地址`和`初始化密码`登录。
 
 > 就是这些，不工作？请将日志贴到 Github issue 中，谢谢！
 
@@ -57,7 +64,7 @@ bash ppmessage/scripts/set-up-mac-on-linux.sh
 > 应网友之强烈要求，要有个 QQ 群 348015072
 
 
-![](/ppmessage/doc/348015072.png)
+![](/doc/348015072.png)
 
 
 ## 版权 
@@ -85,6 +92,8 @@ limitations under the License.
 
 
 ## 其他项目
+
+* [PPMessage Lite Server](https://github.com/PPMESSAGE/ppmessage-lite-server)
 
 * [PPCom iOS SDK](https://github.com/PPMESSAGE/ppcom-ios-sdk)
 
