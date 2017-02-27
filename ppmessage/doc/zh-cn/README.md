@@ -37,6 +37,9 @@ bash ppmessage/scripts/set-up-ppmessage-on-linux.sh
 bash ppmessage/scripts/set-up-mac-on-linux.sh
 ```
 
+> Windows
+
+Windows需要的额外操作请参考[文档](ppmessage/doc/zh-cn/install-ppmessage-on-windows.md)
 
 ### 执行
 
